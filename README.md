@@ -1,6 +1,9 @@
 # Chatson
+#### Demo
+[https://javaveda.github.io/chatson/ref_impl/chat.html](https://javaveda.github.io/chatson/ref_impl/chat.html)
 
-Chatson is a simple Chat Description Language defined in json and javascript.
+#### Description
+Chatson is a simple Chat Description Language defined in JSON and JavaScript.
 The idea is to build chatson as a domain specific language for chats.
 This is in early draft stage. Expecting contribution to this to make this a proper specification.
 
@@ -219,8 +222,16 @@ Defenitions are written in simple text file and can readily be used to integrate
   ]
 }
 ```
+### Todos
 
+ - Integration with Dialogflow
+ - More samples
 
+License
+----
 
+MIT
+
+**Free Software,Looking for Contribution!**
 
 
