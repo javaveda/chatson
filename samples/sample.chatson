@@ -33,7 +33,7 @@
             {
               "type": "pdf",
               "parameters": {
-                "url": "http://www.tutorialspoint.com/javascript/javascript_tutorial.pdf",
+                "url": "https://www.tutorialspoint.com/java/java_tutorial.pdf",
                 "width": "310",
                 "height": "320"
               }
