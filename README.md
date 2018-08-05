@@ -1,6 +1,6 @@
 # Chatson
 #### Demo
-[https://javaveda.github.io/chatson/ref_impl/chat.html](https://javaveda.github.io/chatson/ref_impl/chat.html)
+[https://javaveda.github.io/chatson/ref_impl/chat.html?appName=test&chatson=https://javaveda.github.io/chatson/samples/sample.chatson](https://javaveda.github.io/chatson/ref_impl/chat.html?appName=test&chatson=https://javaveda.github.io/chatson/samples/sample.chatson)
 
 #### Description
 Chatson is a simple Chat Description Language defined in JSON and JavaScript.
