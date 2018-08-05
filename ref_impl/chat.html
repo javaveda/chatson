@@ -1,0 +1,67 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui, viewport-fit=cover">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <title>My App</title>
+  <link rel="stylesheet" href="framework7/css/framework7.min.css">
+  <link rel="stylesheet" href="css/icons.css">
+  <link rel="stylesheet" href="css/app.css">
+</head>
+<body class="color-theme-green">
+<div id="app">
+  <div class="view view-main view-init">
+    <div class="page">
+
+      <div class="navbar">
+        <div class="navbar-inner">
+          <div class="right">
+          </div>
+          <div class="title sliding">{{appName}}</div>
+        </div>
+      </div>
+
+      <div class="toolbar messagebar">
+        <div class="toolbar-inner">
+          <div class="messagebar-area">
+            <textarea class="resizable" placeholder="Message"></textarea>
+          </div><a class="link send-link" href="#">Send</a>
+        </div>
+      </div>
+
+      <div class="page-content messages-content">
+        <div class="messages">
+          <div class="messages-title"><b></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+
+<script src="framework7/js/framework7.min.js"></script>
+<script src="js/naive.js"></script>
+<script src="js/chatson.js"></script>
+<script src="js/chatapp.js"></script>
+
+
+<script>
+      var theme = 'ios';
+      if (location.href.indexOf('theme=md') >= 0) theme = 'md';
+      var plugin = {
+        params: {
+          theme: theme,
+          root: '#app',
+        }
+      };
+      if (Framework7.use) Framework7.use(plugin);
+      else if (Framework7.Class && Framework7.Class.use) Framework7.Class.use(plugin);
+
+
+    </script>
+</body>
+</html>
