@@ -142,14 +142,6 @@ Defenitions are written in simple text file and can readily be used to integrate
               "text": "Enter the shipping address"
             }
           ],
-          "buttons": [
-            {
-              "language": "en",
-              "text": "Select Location",
-              "onclick": "fetchLocation()",
-              "type": "system"
-            }
-          ],
           "next": {
             "end": true,
             "endMessage": function(response){
