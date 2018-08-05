@@ -1,18 +1,3 @@
-# Chatson
-
-Chatson is a simple Chat Description Language defined in json and javascript.
-The idea is to build chatson as a domain specific language for chats.
-This is in early draft stage. Expecting contribution to this to make this a proper specification.
-
-Contact me dhaneeshtnair@gmail.com in case if you wish to contribute.
-
-Defenitions are written in simple text file and can readily be used to integrate with websites.
-  - Define Your Own Chat workflow
-  - Integrate with backend systems from chat client.
-
-### Chatson Sample
-
-```sh
 {
   "chats": [
     {
@@ -226,9 +211,3 @@ Defenitions are written in simple text file and can readily be used to integrate
     }
   ]
 }
-```
-
-
-
-
-
