@@ -197,7 +197,7 @@ Component.prototype.template=function(){
   }
 
   if(this.component.type=="pdf"){
-        return '<iframe src="http://mozilla.github.io/pdf.js/web/viewer.html?file={{url}}" width="{{width}}" height="{{height}}" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" allowfullscreen="" webkitallowfullscreen="" mozallowfullscreen=""></iframe>';
+        return '<iframe src="https://mozilla.github.io/pdf.js/web/viewer.html?file={{url}}" width="{{width}}" height="{{height}}" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" allowfullscreen="" webkitallowfullscreen="" mozallowfullscreen=""></iframe>';
   }
 
   if(this.component.type=="map"){
